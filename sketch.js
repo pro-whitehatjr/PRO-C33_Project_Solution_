@@ -68,7 +68,7 @@ function setup() {
   bunny.addAnimation('crying',sad);
   bunny.changeAnimation('blinking');
 
-  rope = new Rope(4,{x:230,y:330});
+  rope = new Rope(5,{x:230,y:330});
   rope2 = new Rope(4,{x:50,y:450});
   con = new Link(rope,fruit);
   con2 = new Link(rope2,fruit);
